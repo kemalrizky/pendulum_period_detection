@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # Initialization
-cap = cv2.VideoCapture(r"C:\Users\User\Projects\KSIC\UTS\pendulum loop.mp4")
+cap = cv2.VideoCapture(r"video path")
 frame_width = 240
 frame_height = 180
 cap.set(3,frame_width)
