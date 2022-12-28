@@ -1,7 +1,7 @@
 import cv2 
 import numpy as np
 
-video = cv2.VideoCapture("image path")
+video = cv2.VideoCapture("video path")
 success, img = video.read()
 
 def empty(a):
