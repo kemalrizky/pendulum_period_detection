@@ -1,7 +1,7 @@
 import cv2 
 import numpy as np
 
-video = cv2.VideoCapture(r"C:\Users\User\Projects\KSIC\UTS\pendulum loop.mp4")
+video = cv2.VideoCapture("image path")
 success, img = video.read()
 
 def empty(a):
